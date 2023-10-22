@@ -14,11 +14,17 @@ function hasTargetSum(array, target) {
 
 /* 
 Big O time complexity: O(n)
-    - The function iterates through the array once, making it linear time.
+ - The function iterates through the array once, making it linear time.
 */
 
 /* 
-  Add your pseudocode here
+Pseudocode:
+1. Initialize an empty Set (seenNumbers) to keep track of numbers seen.
+2. Loop through the array.
+3. For each number in the array, calculate the difference (target - num).
+4. Check if the difference exists in seenNumbers. If yes, return true.
+5. If not, add the current number to seenNumbers.
+6. If the loop finishes without finding a pair, return false.
 */
 
 /*
