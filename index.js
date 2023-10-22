@@ -28,7 +28,9 @@ Pseudocode:
 */
 
 /*
-  Add written explanation of your solution here
+Explanation:
+- The function uses a Set to efficiently keep track of numbers seen, allowing for a quick lookup to find pairs.
+- It iterates through the array once, making it a linear time algorithm (O(n).
 */
 
 // You can run `node index.js` to view these console logs
