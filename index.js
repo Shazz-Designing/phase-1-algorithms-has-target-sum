@@ -13,7 +13,8 @@ function hasTargetSum(array, target) {
 }
 
 /* 
-  Write the Big O time complexity of your function here
+Big O time complexity: O(n)
+    - The function iterates through the array once, making it linear time.
 */
 
 /* 
